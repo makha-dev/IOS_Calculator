@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body{
+    width: 400px;
+}
+
+.triple {
+    width: 75%;
+}
+
+.double{
+    width: 50%;
+}
+.single{
+    width: 25%;
+}
+
+.calc-row{
+    display: flex;
+    align-content: stretch;
+    height: 100px;
+    font-size: 80px;
+}
+
+.calc-button{
+    background-color: #d8d9db;
+    height: 100%;
+    font-size: 50px;
+}
+
+.display{
+    height: 100px;
+    font-size: 80px;
+    padding-right: 20px;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+.right{
+    background-color: orange;
+}
